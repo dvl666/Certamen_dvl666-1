@@ -91,6 +91,7 @@ document.querySelector("#registrar-btn").addEventListener("click", ()=>{
         ordenes.push(orden);
         CargarTabla();
         Swal.fire("Exito!","Orden registrada", "info");
+        oferta ="no"
         
     if(error == "si")
         swal.fire("Error!","A ocurrido un error","error");      
